@@ -1,0 +1,37 @@
+{
+  "name": "Kredit Skoring Sistemi — Admin",
+  "short_name": "Admin",
+  "description": "Daxili kredit limiti hesablama tətbiqi",
+  "lang": "az",
+  "dir": "ltr",
+  "start_url": "./Admin.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "orientation": "portrait-primary",
+  "background_color": "#eef4fb",
+  "theme_color": "#15324b",
+  "icons": [
+    {
+      "src": "./icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./icons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
